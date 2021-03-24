@@ -1,0 +1,31 @@
+@media screen and (max-width: 900px) {
+  footer {
+    position: relative;
+    bottom: 0px;
+    background-color: red;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box {
+    margin: 5px 0;
+  }
+  .right form .text {
+    color: whitesmoke;
+  }
+  .right form .msg {
+    margin-top: 10px;
+  }
+  .right form input,
+  .right form textarea {
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #e9dddd;
+  }
+  .right form .btn button {
+    height: 40px;
+    width: 20%;
+    background: #f7eded;
+  }
+}
