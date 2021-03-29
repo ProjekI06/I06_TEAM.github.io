@@ -1,4 +1,9 @@
 @media screen and (max-width: 900px) {
+   .container .menu-icon {
+    display: block;
+    padding-top: 2em;
+    padding-left: 28em;
+  }
   .header-right{
   display: none;
   }
