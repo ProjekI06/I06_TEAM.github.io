@@ -37,6 +37,10 @@ li {
 /* akhir Global Class */
 
 /* header */
+.container .menu-icon {
+  color: whitesmoke;
+  display: none;
+}
 header {
   height: 65px;
   width: 100%;
