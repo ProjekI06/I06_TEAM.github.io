@@ -17,16 +17,45 @@
   </head>
   <body>
     <!--Header Rahmad Junaedi -->
-    <header>
-      <div class="header-judul">
-        <h1><a href="index.html">Tim I06</a></h1>
-        <h2>Progate<span>-</span> HTML & CSS</h2>
-          <nav>
-            <a href="index.html">Home</a>
-            <a href="#">About</a>
-            <a href="#">Anggota Tim I06</a>
-          </nav>
-    </div>
+   <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="./img/logo1.png" alt="Home" />
+        </div>
+        <!--  <span class="fa fa-bars menu-icon"></span> -->
+        <div class="header-right">
+          <div class="nav-btn">
+            <div class="nav-links">
+              <ul>
+                <li class="nav-link">
+                  <a href="#">Home</a>
+                </li>
+                <li class="nav-link">
+                  <a href="#">About</a>
+                </li>
+                <!-- dropdown 1-->
+                <li class="nav-link">
+                  <a href="#">Project<i class="fa fa-caret-down"></i></a>
+                  <div class="dropdown">
+                    <ul>
+                      <li class="dropdown-link">
+                        <a href="#">Galeri Project</a>
+                      </li>
+                      <li class="dropdown-link">
+                        <a href="#">Tools Project</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- akhir dropdown 1 -->
+                <li class="nav-link">
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <!--Akhir Header -->
     
@@ -53,10 +82,10 @@
             <p>Can be adjusted according to your budget</p>
           </div>
           <div class="benefit-list">
-            <!-- <img class="fast" src="https://images.unsplash.com/photo-1511345624864-d6cf46344e8c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"> -->
             <h2>Fast</h2>
-            <p>No need more than 10 minutes.
-              <br>
+            <p>
+              No need more than 10 minutes.
+              <br />
               You can do it with coffee
             </p>
           </div>
@@ -69,7 +98,6 @@
             <p>Your privacy is secure with our security</p>
           </div>
         </div>
-        
       </div>
     </div>
     <!--Akhir Section -->
